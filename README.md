@@ -48,7 +48,7 @@ For this project,
 The user is required to have installed inquirer package version 8.2.4 and Node.js in order to use this application.
 
 ## Usage
-
+[profile-Generator.webm](https://user-images.githubusercontent.com/112015433/210184155-4d23e8b0-81e8-4b16-913f-d5f5a127bf30.webm)
 
 ## Tests
 
