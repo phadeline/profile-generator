@@ -1,4 +1,4 @@
-# profile-Generator
+# Employee Profile Generator
 
 ## Description
 The purpose of this project was to create a an employee profile generator. Given that each employee has the basic information of a name, id and email, a profile would be created. Additionally, depending on whether an employee is an Intern, Manager or Engineer, other information specific to that position will be provided as well. For example, if an employee is an Intern, the prompts will ask for a School Name, if the employee is an Engineer the propmts will ask for Github account and if the emplyee is a Manager the propmts will ask for an Office Number. After all the prompts are answered, then an HTML file will generate profiles based on the questions answered. 
