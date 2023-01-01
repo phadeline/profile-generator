@@ -55,7 +55,7 @@ Unit tests were conducted when on classes for Employee, Intern, Manager and Engi
 
 
 ## Credits and Collaborators
-The starter code for this project was provided by [kfergrocks](https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC).  The link to the starter code can be found at: https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC/tree/main/10-OOP/02-Challenge
+The starter code for this project was provided by Rutgers Coding Bootcamp Instructor Kevin Ferguson, who's github can be found here: [kfergrocks](https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC).  The link to the starter code can be found at: https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC/tree/main/10-OOP/02-Challenge
 
 
 
