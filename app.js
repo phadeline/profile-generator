@@ -12,6 +12,42 @@ const render = require("./lib/htmlRenderer");
 
 const members = [];
 
+const employeeIformation = function async(input) {
+  if (input != "") {
+    return true;
+  } else {
+    console.log("anwer must not be left blank");
+    return false;
+  }
+};
+
+const employeeEmail = async (input) => {
+  if (input != "") {
+    return true;
+  } else {
+    console.log("You must enter an email");
+    return true;
+  }
+};
+
+const employeeid = async (input) => {
+  if (input != NaN) {
+    return true;
+  } else {
+    console.log("Employee Id must be a number");
+    return false;
+  }
+};
+
+const managerOfficeNumber = async (input) => {
+  if (input != NaN) {
+    return true;
+  } else {
+    console.log("Manager office number must be a number");
+    return false;
+  }
+};
+
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
 inquirer
@@ -20,21 +56,25 @@ inquirer
       type: "input",
       message: "What is your manager's name?",
       name: "managername",
+      validate: employeeIformation,
     },
     {
       type: "input",
       message: "What is your manager Id?",
       name: "managerid",
+      validate: employeeid,
     },
     {
       type: "input",
       message: "What is your manager's email?",
       name: "manageremail",
+      validate: employeeEmail,
     },
     {
       type: "input",
       message: "What is your manager's office number?",
       name: "officenumber",
+      validate: managerOfficeNumber,
     },
   ])
   .then((responses) => {
@@ -79,21 +119,25 @@ function makeIntern() {
         type: "input",
         name: "internname",
         message: "what is the intern's name?",
+        validate: employeeIformation,
       },
       {
         type: "input",
         name: "internid",
         message: "what is the intern's id?",
+        validate: employeeid,
       },
       {
         type: "input",
         name: "internemail",
         message: "what is the intern's email?",
+        validate: employeeEmail,
       },
       {
         type: "input",
         name: "internschool",
         message: "what is the intern's school?",
+        validate: employeeIformation,
       },
     ])
     .then((responses) => {
@@ -115,21 +159,25 @@ function makeEngineer() {
         type: "input",
         name: "engineername",
         message: "what is the name of the engineer?",
+        validate: employeeIformation,
       },
       {
         type: "input",
         name: "engineerid",
         message: "what is the id of the engineer?",
+        validate: employeeid,
       },
       {
         type: "input",
         name: "engineeremail",
         message: "what is the email of the engineer?",
+        validate: employeeEmail,
       },
       {
         type: "input",
         name: "engineergithub",
         message: "what is the github of the engineer?",
+        validate: employeeIformation,
       },
     ])
     .then((responses) => {

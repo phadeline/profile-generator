@@ -55,7 +55,7 @@ The user is required to have installed inquirer package version 8.2.4 and Node.j
 
 
 ## Credits and Collaborators
-The starter code for this project was provided by [kfergrocks]:https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC.  The link to the starter code can be found at: https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC/tree/main/10-OOP/02-Challenge
+The starter code for this project was provided by [kfergrocks](https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC).  The link to the starter code can be found at: https://github.com/RutgersCodingBootcamp/RUT-VIRT-FSF-PT-10-2022-U-LOLC/tree/main/10-OOP/02-Challenge
 
 
 
