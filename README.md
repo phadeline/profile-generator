@@ -52,6 +52,7 @@ The user is required to have installed inquirer package version 8.2.4 and Node.j
 
 ## Tests
 Unit tests were conducted when on classes for Employee, Intern, Manager and Engineer. The tests can be found in the test folder. 
+here is a video of the tests passing: https://drive.google.com/file/d/18HYQfWV6RRvhtoaEo2ZqiYiLKKPMjz2e/view
 
 
 ## Credits and Collaborators
